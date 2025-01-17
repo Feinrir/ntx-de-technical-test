@@ -1,3 +1,4 @@
+--sql environment is using PostgreSQL
 --creating blank table using column name and most likely data type from csv dataset
 CREATE TABLE ecommerce_data (
     fullVisitorId TEXT,
