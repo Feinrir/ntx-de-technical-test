@@ -1,0 +1,18 @@
+data_source:
+  primary_csv:
+    #file path for primary source csv
+    file_path_products: "/data/products.csv"
+    file_path_transactions: "/data/transactions.csv"
+  secondary_json_api:
+    #url for secondary source api
+    url_products: "https://api.example.com/products"
+    url_transactions : "https://api.example.com/transactions"
+
+database:
+  #postgresql database detail
+  connection_string: "postgresql://user:password@localhost:5432/ecommerce_db"
+  table_name_products: "products"
+  table_name_transactions: "transactions"
+  table_name_product_revenue: "product_revenue"
+  table_name_sales_channel: "sales_channel_performance"
+  table_name_customer_frequency: "customer_frequency"
